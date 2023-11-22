@@ -1,0 +1,46 @@
+body {
+    background-image: url(./imagem/shutterstock_1096975310.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Century Gothic", Arial, sans-serif;
+    background-position: center;
+  }
+  
+  .container {
+    height: 50%;
+    width: 60vh;
+    text-align: center;
+    background-color:rgba(0, 255, 255, 0.575);
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.76);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #ccc; 
+    color: #070707; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+ 
+  button:hover {
+    background-color: rgb(19, 95, 209); 
+    color: #fff; 
+}
